@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>update_professor</class>
+ <widget class="QDialog" name="update_professor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>818</width>
+    <height>576</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>150</y>
+     <width>361</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Name</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="up_name">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Username</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="up_username">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Department</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="up_dept">
+        <item>
+         <property name="text">
+          <string>Department of Physics</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Department of Mathematics</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Department of Life Science</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Department of Computer Science and Engineering</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Department of Mechanical Engineering</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Department of Environmental Science and Engineering</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Department of Chemical Science and Engineering</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Department of Geomatics Engineering</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Department of Civil Engineering</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Department of Architecture</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Department of Pharmacy</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Department of Biotechnology</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Department of Electrical and Electronics Engineering</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Department of Management</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QPushButton" name="up_delete">
+        <property name="text">
+         <string>Delete</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="up_exit">
+        <property name="text">
+         <string>Exit</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

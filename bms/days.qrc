@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>data/reservations/sunday.db</file>
+    </qresource>
+</RCC>

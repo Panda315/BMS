@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/days">
+        <file>data/blocks/sunday.csv</file>
+    </qresource>
+</RCC>

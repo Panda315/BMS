@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>data/faculty.txt</file>
+        <file>data/professor.txt</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>data/icon.png</file>
+        <file>data/ii.jpg</file>
+        <file>data/bin.jpg</file>
+        <file>data/back.jpg</file>
+        <file>data/aa.png</file>
+        <file>data/Kathmandu_University_Logo,jpg</file>
+    </qresource>
+</RCC>
